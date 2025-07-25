@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/adithispawar/Desktop/project1/build",
+  "command": "/usr/bin/clang++ -DPOCO_CMAKE -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_IPv6 -DPOCO_NO_STAT64 -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_DEBUG -I/opt/homebrew/include/postgresql/server -I/Users/adithispawar/Desktop/project1/file-sharing-system/src -isystem /opt/homebrew/include -isystem /opt/homebrew/opt/poco/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/file_sharing_server.dir/src/DownloadHandler.cpp.o -c /Users/adithispawar/Desktop/project1/file-sharing-system/src/DownloadHandler.cpp",
+  "file": "/Users/adithispawar/Desktop/project1/file-sharing-system/src/DownloadHandler.cpp",
+  "output": "CMakeFiles/file_sharing_server.dir/src/DownloadHandler.cpp.o"
+},
+{
+  "directory": "/Users/adithispawar/Desktop/project1/build",
+  "command": "/usr/bin/clang++ -DPOCO_CMAKE -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_IPv6 -DPOCO_NO_STAT64 -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_DEBUG -I/opt/homebrew/include/postgresql/server -I/Users/adithispawar/Desktop/project1/file-sharing-system/src -isystem /opt/homebrew/include -isystem /opt/homebrew/opt/poco/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/file_sharing_server.dir/src/RequestHandler.cpp.o -c /Users/adithispawar/Desktop/project1/file-sharing-system/src/RequestHandler.cpp",
+  "file": "/Users/adithispawar/Desktop/project1/file-sharing-system/src/RequestHandler.cpp",
+  "output": "CMakeFiles/file_sharing_server.dir/src/RequestHandler.cpp.o"
+},
+{
+  "directory": "/Users/adithispawar/Desktop/project1/build",
+  "command": "/usr/bin/clang++ -DPOCO_CMAKE -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_IPv6 -DPOCO_NO_STAT64 -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_DEBUG -I/opt/homebrew/include/postgresql/server -I/Users/adithispawar/Desktop/project1/file-sharing-system/src -isystem /opt/homebrew/include -isystem /opt/homebrew/opt/poco/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/file_sharing_server.dir/src/RequestHandlerFactory.cpp.o -c /Users/adithispawar/Desktop/project1/file-sharing-system/src/RequestHandlerFactory.cpp",
+  "file": "/Users/adithispawar/Desktop/project1/file-sharing-system/src/RequestHandlerFactory.cpp",
+  "output": "CMakeFiles/file_sharing_server.dir/src/RequestHandlerFactory.cpp.o"
+},
+{
+  "directory": "/Users/adithispawar/Desktop/project1/build",
+  "command": "/usr/bin/clang++ -DPOCO_CMAKE -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_IPv6 -DPOCO_NO_STAT64 -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_DEBUG -I/opt/homebrew/include/postgresql/server -I/Users/adithispawar/Desktop/project1/file-sharing-system/src -isystem /opt/homebrew/include -isystem /opt/homebrew/opt/poco/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/file_sharing_server.dir/src/ShareHandler.cpp.o -c /Users/adithispawar/Desktop/project1/file-sharing-system/src/ShareHandler.cpp",
+  "file": "/Users/adithispawar/Desktop/project1/file-sharing-system/src/ShareHandler.cpp",
+  "output": "CMakeFiles/file_sharing_server.dir/src/ShareHandler.cpp.o"
+},
+{
+  "directory": "/Users/adithispawar/Desktop/project1/build",
+  "command": "/usr/bin/clang++ -DPOCO_CMAKE -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_IPv6 -DPOCO_NO_STAT64 -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_DEBUG -I/opt/homebrew/include/postgresql/server -I/Users/adithispawar/Desktop/project1/file-sharing-system/src -isystem /opt/homebrew/include -isystem /opt/homebrew/opt/poco/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/file_sharing_server.dir/src/SharedWithHandler.cpp.o -c /Users/adithispawar/Desktop/project1/file-sharing-system/src/SharedWithHandler.cpp",
+  "file": "/Users/adithispawar/Desktop/project1/file-sharing-system/src/SharedWithHandler.cpp",
+  "output": "CMakeFiles/file_sharing_server.dir/src/SharedWithHandler.cpp.o"
+},
+{
+  "directory": "/Users/adithispawar/Desktop/project1/build",
+  "command": "/usr/bin/clang++ -DPOCO_CMAKE -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_IPv6 -DPOCO_NO_STAT64 -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_DEBUG -I/opt/homebrew/include/postgresql/server -I/Users/adithispawar/Desktop/project1/file-sharing-system/src -isystem /opt/homebrew/include -isystem /opt/homebrew/opt/poco/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/file_sharing_server.dir/src/UploadHandler.cpp.o -c /Users/adithispawar/Desktop/project1/file-sharing-system/src/UploadHandler.cpp",
+  "file": "/Users/adithispawar/Desktop/project1/file-sharing-system/src/UploadHandler.cpp",
+  "output": "CMakeFiles/file_sharing_server.dir/src/UploadHandler.cpp.o"
+},
+{
+  "directory": "/Users/adithispawar/Desktop/project1/build",
+  "command": "/usr/bin/clang++ -DPOCO_CMAKE -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_IPv6 -DPOCO_NO_STAT64 -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_DEBUG -I/opt/homebrew/include/postgresql/server -I/Users/adithispawar/Desktop/project1/file-sharing-system/src -isystem /opt/homebrew/include -isystem /opt/homebrew/opt/poco/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/file_sharing_server.dir/src/UserManager.cpp.o -c /Users/adithispawar/Desktop/project1/file-sharing-system/src/UserManager.cpp",
+  "file": "/Users/adithispawar/Desktop/project1/file-sharing-system/src/UserManager.cpp",
+  "output": "CMakeFiles/file_sharing_server.dir/src/UserManager.cpp.o"
+},
+{
+  "directory": "/Users/adithispawar/Desktop/project1/build",
+  "command": "/usr/bin/clang++ -DPOCO_CMAKE -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_IPv6 -DPOCO_NO_STAT64 -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_DEBUG -I/opt/homebrew/include/postgresql/server -I/Users/adithispawar/Desktop/project1/file-sharing-system/src -isystem /opt/homebrew/include -isystem /opt/homebrew/opt/poco/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/file_sharing_server.dir/src/main.cpp.o -c /Users/adithispawar/Desktop/project1/file-sharing-system/src/main.cpp",
+  "file": "/Users/adithispawar/Desktop/project1/file-sharing-system/src/main.cpp",
+  "output": "CMakeFiles/file_sharing_server.dir/src/main.cpp.o"
+}
+]

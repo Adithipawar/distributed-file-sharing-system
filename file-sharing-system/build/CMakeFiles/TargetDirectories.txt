@@ -1,0 +1,3 @@
+/Users/adithispawar/Desktop/project1/file-sharing-system/build/CMakeFiles/file_sharing_server.dir
+/Users/adithispawar/Desktop/project1/file-sharing-system/build/CMakeFiles/edit_cache.dir
+/Users/adithispawar/Desktop/project1/file-sharing-system/build/CMakeFiles/rebuild_cache.dir

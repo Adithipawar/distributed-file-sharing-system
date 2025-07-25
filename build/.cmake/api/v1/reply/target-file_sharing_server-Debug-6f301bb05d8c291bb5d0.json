@@ -1,0 +1,416 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "file_sharing_server"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/opt/homebrew/opt/poco/lib/cmake/Poco/PocoUtilTargets.cmake",
+			"/opt/homebrew/opt/poco/lib/cmake/Poco/PocoUtilConfig.cmake",
+			"/opt/homebrew/opt/poco/lib/cmake/Poco/PocoConfig.cmake",
+			"/opt/homebrew/opt/poco/lib/cmake/Poco/PocoXMLTargets.cmake",
+			"/opt/homebrew/opt/poco/lib/cmake/Poco/PocoXMLConfig.cmake",
+			"/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"/opt/homebrew/opt/poco/lib/cmake/Poco/PocoNetTargets.cmake",
+			"/opt/homebrew/opt/poco/lib/cmake/Poco/PocoNetConfig.cmake",
+			"/opt/homebrew/opt/poco/lib/cmake/Poco/PocoFoundationTargets.cmake",
+			"/opt/homebrew/opt/poco/lib/cmake/Poco/PocoFoundationConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 29,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 78,
+				"parent" : 10
+			},
+			{
+				"file" : 5,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 10,
+				"parent" : 12
+			},
+			{
+				"file" : 4,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 29,
+				"parent" : 4
+			},
+			{
+				"file" : 8,
+				"parent" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 3,
+				"parent" : 17
+			},
+			{
+				"file" : 7,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 61,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 2,
+				"parent" : 17
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 78,
+				"parent" : 21
+			},
+			{
+				"file" : 10,
+				"parent" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 9,
+				"parent" : 23
+			},
+			{
+				"file" : 9,
+				"parent" : 24
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 61,
+				"parent" : 25
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -arch arm64"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "POCO_CMAKE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_ENABLE_CPP11"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_ENABLE_CPP14"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_HAVE_IPv6"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_NO_STAT64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_OS_FAMILY_UNIX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_UNBUNDLED"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_DEBUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 27,
+					"path" : "/opt/homebrew/include/postgresql/server"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/Users/adithispawar/Desktop/project1/file-sharing-system/src"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/opt/poco/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"id" : "file_sharing_server::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/homebrew/opt/poco/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/opt/poco/lib/libPocoNet.111.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/opt/poco/lib/libPocoUtil.111.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/lib/libpq.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/homebrew/opt/poco/lib/libPocoXML.111.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libexpat.tbd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/homebrew/opt/poco/lib/libPocoJSON.111.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/opt/homebrew/opt/poco/lib/libPocoFoundation.111.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libpcre2-8.tbd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/opt/homebrew/lib/libutf8proc.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "file_sharing_server",
+	"nameOnDisk" : "file_sharing_server",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/DownloadHandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/RequestHandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/RequestHandlerFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ShareHandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/SharedWithHandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/UploadHandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/UserManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

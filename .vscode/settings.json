@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/Users/adithispawar/Desktop/project1/file-sharing-system",
+    "files.associations": {
+        "istream": "cpp",
+        "vector": "cpp"
+    }
+}

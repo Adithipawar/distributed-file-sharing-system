@@ -1,0 +1,1 @@
+echo "%PDF-1.4\n%EOF" > test_uploads/document.pdf

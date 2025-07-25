@@ -1,0 +1,1 @@
+dd if=/dev/urandom of=test_uploads/photo.jpg bs=1k count=5
