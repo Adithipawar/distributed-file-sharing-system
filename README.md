@@ -37,7 +37,7 @@ Modular design with the following components:
 ---
 
 ## File Structure
-
+```
 project1/
 ├── .vscode/
 │   ├── c_cpp_properties.json
@@ -75,41 +75,55 @@ project1/
 ├── myserver
 ├── README.md
 └── test.sh
-
+```
 
 ---
 
 ## Setup Instructions
 
-### 1. Build
+### 1. Build the Server
 
 ```bash
 mkdir build && cd build
 cmake ..
 make
 ./file_sharing_server
+```
 
 ### 2. Run YugabyteDB (in Docker)
 
+```bash
 docker run -d --name yugabytedb -p 5433:5433 -p 15433:15433 yugabytedb/yugabyte
+```
 
-Access YugabyteDB UI at: http://localhost:15433
+- Access YugabyteDB UI at: [http://localhost:15433](http://localhost:15433)
 
 ### 3. Testing the System
 
--Ensure the server is running: ./file_sharing_server
--Make the test script executable: chmod +x test.sh
--Run: ./test.sh
+```bash
+# Ensure the server is running
+./file_sharing_server
+
+# Make the test script executable
+chmod +x test.sh
+
+# Run tests
+./test.sh
+```
+
+---
 
 ## Future Improvements
 
--Add user authentication and session/token management.
--Implement expiring shared links or access controls.
--Fully Dockerize the server and DB together.
--Add nlohmann/json for structured JSON responses.
+1. Add user authentication and session/token management.
+2. Implement expiring shared links or access controls.
+3. Fully Dockerize the server and DB together.
+4. Add `nlohmann/json` for structured JSON responses.
+
+---
 
 ## Challenges Faced
 
--Getting POCO and libpq working on macOS M1
--Managing database schema consistency
--Ensuring cross-platform compatibility
+- Getting POCO and `libpq` working on macOS M1.
+- Managing database schema consistency.
+- Ensuring cross-platform compatibility.
